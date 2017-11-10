@@ -34,7 +34,7 @@
   left: 0;
 }
 
-.clock__hours-container {
+/* .clock__hours-container {
   animation: rotate 43200s infinite linear;
 }
 .clock__minutes-container {
@@ -42,7 +42,7 @@
 }
 .clock__seconds-container {
   animation: rotate 60s infinite steps(60);
-}
+} */
 
 .clock__hours {
   background: #000;

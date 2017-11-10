@@ -2,14 +2,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
 import { ClockComponent } from './clock/clock.component';
+import { ClockHandComponent } from './clock/clock-hand/clock-hand.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent,
-    ClockComponent
+    ClockComponent,
+    ClockHandComponent
   ],
   imports: [
     BrowserModule

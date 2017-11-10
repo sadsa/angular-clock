@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  displayTickMessage(event: {message:string}) {
+    console.log(event.message);
+  }
 }

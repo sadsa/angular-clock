@@ -1,0 +1,8 @@
+<article class="clock">
+  <app-clock-hand
+    *ngFor="let hand of hands"
+    [id]="hand.id"
+    [name]="hand.name"
+    [angle]="hand.angle">
+  </app-clock-hand>
+</article>
